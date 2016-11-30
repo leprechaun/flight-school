@@ -41,7 +41,7 @@ RSpec.describe Radar, ".status_for" do
     it "raises an exception" do
       expect {
         Radar.status_for("EDI")
-      }.to raise_error Radar::NoSuchAirport
+      }.to raise_error Radar::NoSuchAirport2
     end
   end
 end
